@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* fonte */
+                display: flex; /* usa o FlexBox para exibir o conteúdo */
+                justify-content: center; /* centraliza na horizontal */
+                min-height: 100vh; /* altura da página é todo o conteúdo dela */
+                align-items: center; /* centraliza na vertical */
+                background-color: rgb(219, 219, 219);
+                background-image: url(https://www.diariodopeixe.com.br/wp-content/uploads/2019/02/neymar-1200x800.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                flex-direction: column;
+            }
+            .container {
+                background-color: rgb(172, 172, 172);
+                padding: 20px; /* espaçamento interno */
+                border-radius: 15px;
+                box-shadow: 0px 5px whitesmoke;
+                flex-direction: column;
+                margin-bottom: 20px;
+
+        
+            }
+            h2{
+                cursor: pointer;
+                padding: 2px;
+                color:rgb(0, 0, 0)
+                
+
+            }
+            p{}
+
+            button{
+                background-color: rgb(0, 0, 0);
+                color:white;
+                border: none;
+                padding: 5px;
+                border-radius: 50px;
+                cursor: pointer;
+
+            }
+            button:hover{
+                background-color: rgb(116, 116, 116)
+            }
+            img{
+                
+                border: none;
+                border-radius: 10px;
+                height: 400px;
+                left: 400px;
+            
+            }
+            
+            
